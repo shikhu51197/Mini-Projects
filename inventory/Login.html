@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles/index.css">
+    <title>Login page</title>
+
+  </head>
+  <body>
+    <div id="navbar"></div>
+
+    <div>
+      <br><br>
+      <label for="">Email</label>
+      <br><br>
+      <input type="email"  id= "email" placeholder="Enter Your Email here">
+      <br><br>
+      <label for="">Password</label>
+      <br><br>
+      <input type="password" id= "password" placeholder="Enter Your Password here">
+      <br><br>
+      <input type="submit" onclick="Login()">
+
+    </div>
+
+  </body>
+</html>
+
+
+
+
+<script type = "module">
+
+import navbar from './components/navbar.js'
+let parent = document.getElementById("navbar")
+parent.innerHTML = navbar();
+
+</script>
+
+<script src="./scripts/login.js"></script>

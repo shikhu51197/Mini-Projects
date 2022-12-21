@@ -1,0 +1,34 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="navbar.css">
+    <title>Document</title>
+</head>
+<body>
+    <div id="navbar">
+        <h3><a href="user.html">user page</a></h3>
+    </div>
+    <h1>USER MANAGEMENT APP</h1>
+    <div id="form">
+    <input type="text" id="name" placeholder="Enter Name">
+     <input type="number" id="age" placeholder="Enter age">
+     <input type="text" id="batch" placeholder="Enter Batch">
+     <input type="number" id="mobileno" placeholder="Enter mobile number">
+     <input type="text" id="score" placeholder="Enter score">
+     <select id="course">
+        <option value="choose course">choose course</option>
+        <option value="Full Stack Web developement"> Full Stack Web developement</option>
+        <option value="Frontend">frontend</option>
+        <option value="Backend">backend</option>
+      </select>
+     <button onclick = "addUser()">add user</button>
+    </div>
+     <div id="container"></div>
+</body>
+</html>
+
+<script src="index.js"></script>

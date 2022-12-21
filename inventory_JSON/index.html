@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Home page</title>
+  </head>
+  <body>
+    <div id="navbar">
+      <h1>Admin Panel</h1>
+    </div>
+    <!-- 1. Product form input boxes will have IDs as "name", "price", "description", "delivery" & "image" respectively.
+ 2. Add Product button ID :- "add_product".
+ 3. Sort Low to High button ID :- "sort-low-to-high"
+ 4. Sort High to Low button ID :- "sort-high-to-low"
+ 5. Price > 4000 "greater-than" button ID :- 
+ 6. Price < = 4000 button ID :- "less-than"
+ 7. All the products will be appended inside div with ID :- "container".
+ 8. Every product card will have class :- "item",
+ 9. The price in every card will have class :- "product_price" ,
+ NOTE:- Show only price amount in number, no extra tesxt should be there.
+ 10.The delivery in every card will have class :- "product_delivery" 
+ 11. The remove button will have class :- "remove_item",
+ 12. The update button will have class :- "update_price" -->
+
+ <div id="box">
+  <div id="add">
+    <input type="text" id="name" placeholder="Enter Your Name">
+    <input type="number" id="price" placeholder="Enter price">
+    <input type="text" id="description" placeholder="Enter description">
+    <input type="date" id="delivery">
+    <input type="url" id="image" placeholder="image_url">
+    <button id="add_product" onclick="addproduct()">Add product</button>
+    <br><br>
+    <h4>Sort Based  on price</h4>
+    <button id="sort-low-to-high" onclick="sortLH()">Sort Low to High</button>
+    <button id="sort-high-to-low" onclick="sortHL()">Sort High to Low</button>
+    <br><br>
+    <h4>Filter Based  on price</h4>
+    <button id="greater-than" onclick="greaterThan()">Price > 4000</button>
+    <button id="less-than" onclick="lessThan()">Price <= 4000</button>
+  </div>
+  <div id="container"></div>
+ </div>
+  </body>
+</html>
+
+<script src="main.js"></script>

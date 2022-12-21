@@ -1,0 +1,23 @@
+/* Write necessery css for navbar here  */
+#navbar{
+    display:flex;
+    justify-content:center;
+    padding: 1%;
+    width: 95%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 8px;
+    background-color: rgb(7, 25, 79);
+    color: antiquewhite;
+    border-radius: 10px;
+
+}
+#navbar > div {
+    display: flex;
+    list-style: none;
+}
+#navbar>div>a{
+    color: white;
+    text-decoration: none;
+    }

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Masai Country Finder</title>
+  </head>
+  <body>
+    <div id="sort_filter">
+      <label for="sort">Sort Based On Population</label>
+            <!-- note: don't add onchange event here -->
+      <select name="sort" id="sort_population" >
+        <option value ="">--sort by population--</option>
+        <option value="asc">Low To High</option>
+        <option value="desc">High To Low</option>
+      </select>
+
+      <label for="filter">Filter for Region</label>
+      <!-- note: don't add onchange event here -->
+      <select name="filter" id="filter_region" >
+        <option value="all">All</option>
+        <option value="Africa">Africa</option>
+        <option value="America">America</option>
+        <option value="Asia">Asia</option>
+        <option value="Europe">Europe</option>
+        <option value="Oceania">Oceania</option>
+      </select>
+    </div>
+    <div id="all_countries"></div>
+  </body>
+</html>
+<script src="./src/index.js"></script>

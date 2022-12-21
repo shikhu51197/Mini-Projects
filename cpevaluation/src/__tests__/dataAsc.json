@@ -1,0 +1,548 @@
+[
+  {
+    "name": {
+      "common": "Pakistan",
+      "official": "Islamic Republic of Pakistan",
+      "nativeName": {
+        "eng": {
+          "official": "Islamic Republic of Pakistan",
+          "common": "Pakistan"
+        },
+        "urd": {
+          "official": "اسلامی جمہوریۂ پاكستان",
+          "common": "پاكستان"
+        }
+      }
+    },
+    "tld": [".pk"],
+    "cca2": "PK",
+    "ccn3": "586",
+    "cca3": "PAK",
+    "cioc": "PAK",
+    "independent": true,
+    "status": "officially-assigned",
+    "unMember": true,
+    "currencies": {
+      "PKR": {
+        "name": "Pakistani rupee",
+        "symbol": "₨"
+      }
+    },
+    "idd": {
+      "root": "+9",
+      "suffixes": ["2"]
+    },
+    "capital": ["Islamabad"],
+    "altSpellings": [
+      "PK",
+      "Pākistān",
+      "Islamic Republic of Pakistan",
+      "Islāmī Jumhūriya'eh Pākistān"
+    ],
+    "region": "Asia",
+    "subregion": "Southern Asia",
+    "languages": {
+      "eng": "English",
+      "urd": "Urdu"
+    },
+    "latlng": [30, 70],
+    "landlocked": false,
+    "borders": ["AFG", "CHN", "IND", "IRN"],
+    "area": 881912,
+    "demonyms": {
+      "eng": {
+        "f": "Pakistani",
+        "m": "Pakistani"
+      },
+      "fra": {
+        "f": "Pakistanaise",
+        "m": "Pakistanais"
+      }
+    },
+    "flag": "🇵🇰",
+    "maps": {
+      "googleMaps": "https://goo.gl/maps/5LYujdfR5yLUXoERA",
+      "openStreetMaps": "https://www.openstreetmap.org/relation/307573"
+    },
+    "population": 220892331,
+    "gini": {
+      "2018": 31.6
+    },
+    "fifa": "PAK",
+    "car": {
+      "signs": ["PK"],
+      "side": "left"
+    },
+    "timezones": ["UTC+05:00"],
+    "continents": ["Asia"],
+    "flags": {
+      "png": "https://flagcdn.com/w320/pk.png",
+      "svg": "https://flagcdn.com/pk.svg"
+    },
+    "coatOfArms": {
+      "png": "https://mainfacts.com/media/images/coats_of_arms/pk.png",
+      "svg": "https://mainfacts.com/media/images/coats_of_arms/pk.svg"
+    },
+    "startOfWeek": "monday",
+    "capitalInfo": {
+      "latlng": [33.68, 73.05]
+    },
+    "postalCode": {
+      "format": "#####",
+      "regex": "^(\\d{5})$"
+    }
+  },
+  {
+    "name": {
+      "common": "Indonesia",
+      "official": "Republic of Indonesia",
+      "nativeName": {
+        "ind": {
+          "official": "Republik Indonesia",
+          "common": "Indonesia"
+        }
+      }
+    },
+    "tld": [".id"],
+    "cca2": "ID",
+    "ccn3": "360",
+    "cca3": "IDN",
+    "cioc": "INA",
+    "independent": true,
+    "status": "officially-assigned",
+    "unMember": true,
+    "currencies": {
+      "IDR": {
+        "name": "Indonesian rupiah",
+        "symbol": "Rp"
+      }
+    },
+    "idd": {
+      "root": "+6",
+      "suffixes": ["2"]
+    },
+    "capital": ["Jakarta"],
+    "altSpellings": ["ID", "Republic of Indonesia", "Republik Indonesia"],
+    "region": "Asia",
+    "subregion": "South-Eastern Asia",
+    "languages": {
+      "ind": "Indonesian"
+    },
+    "latlng": [-5, 120],
+    "area": 1904569,
+    "demonyms": {
+      "eng": {
+        "f": "Indonesian",
+        "m": "Indonesian"
+      },
+      "fra": {
+        "f": "Indonésienne",
+        "m": "Indonésien"
+      }
+    },
+    "flag": "🇮🇩",
+    "maps": {
+      "googleMaps": "https://goo.gl/maps/9gfPupm5bffixiFJ6",
+      "openStreetMaps": "https://www.openstreetmap.org/relation/21335"
+    },
+    "population": 273523621,
+    "gini": {
+      "2019": 38.2
+    },
+    "fifa": "IDN",
+    "car": {
+      "signs": ["RI"],
+      "side": "left"
+    },
+    "timezones": ["UTC+07:00", "UTC+08:00", "UTC+09:00"],
+    "continents": ["Asia"],
+    "flags": {
+      "png": "https://flagcdn.com/w320/id.png",
+      "svg": "https://flagcdn.com/id.svg"
+    },
+    "coatOfArms": {
+      "png": "https://mainfacts.com/media/images/coats_of_arms/id.png",
+      "svg": "https://mainfacts.com/media/images/coats_of_arms/id.svg"
+    },
+    "startOfWeek": "monday",
+    "capitalInfo": {
+      "latlng": [-6.17, 106.82]
+    },
+    "postalCode": {
+      "format": "#####",
+      "regex": "^(\\d{5})$"
+    }
+  },
+  {
+    "name": {
+      "common": "United States",
+      "official": "United States of America",
+      "nativeName": {
+        "eng": {
+          "official": "United States of America",
+          "common": "United States"
+        }
+      }
+    },
+    "tld": [".us"],
+    "cca2": "US",
+    "ccn3": "840",
+    "cca3": "USA",
+    "cioc": "USA",
+    "independent": true,
+    "status": "officially-assigned",
+    "unMember": true,
+    "currencies": {
+      "USD": {
+        "name": "United States dollar",
+        "symbol": "$"
+      }
+    },
+    "capital": ["Washington, D.C."],
+    "altSpellings": ["US", "USA", "United States of America"],
+    "region": "Americas",
+    "subregion": "North America",
+    "languages": {
+      "eng": "English"
+    },
+    "translations": {
+      "ara": {
+        "official": "الولايات المتحدة الامريكية",
+        "common": "الولايات المتحدة"
+      },
+      "bre": {
+        "official": "Stadoù-Unanet Amerika",
+        "common": "Stadoù-Unanet"
+      },
+      "ces": {
+        "official": "Spojené státy americké",
+        "common": "Spojené státy"
+      },
+      "cym": {
+        "official": "United States of America",
+        "common": "United States"
+      },
+      "deu": {
+        "official": "Vereinigte Staaten von Amerika",
+        "common": "Vereinigte Staaten"
+      },
+      "est": {
+        "official": "Ameerika Ühendriigid",
+        "common": "Ameerika Ühendriigid"
+      },
+      "fin": {
+        "official": "Amerikan yhdysvallat",
+        "common": "Yhdysvallat"
+      },
+      "fra": {
+        "official": "Les états-unis d'Amérique",
+        "common": "États-Unis"
+      },
+      "hrv": {
+        "official": "Sjedinjene Države Amerike",
+        "common": "Sjedinjene Američke Države"
+      },
+      "hun": {
+        "official": "Amerikai Egyesült Államok",
+        "common": "Amerikai Egyesült Államok"
+      },
+      "ita": {
+        "official": "Stati Uniti d'America",
+        "common": "Stati Uniti d'America"
+      },
+      "jpn": {
+        "official": "アメリカ合衆国",
+        "common": "アメリカ合衆国"
+      },
+      "kor": {
+        "official": "아메리카 합중국",
+        "common": "미국"
+      },
+      "nld": {
+        "official": "Verenigde Staten van Amerika",
+        "common": "Verenigde Staten"
+      },
+      "per": {
+        "official": "ایالات متحده آمریکا",
+        "common": "ایالات متحده آمریکا"
+      },
+      "pol": {
+        "official": "Stany Zjednoczone Ameryki",
+        "common": "Stany Zjednoczone"
+      },
+      "por": {
+        "official": "Estados Unidos da América",
+        "common": "Estados Unidos"
+      },
+      "rus": {
+        "official": "Соединенные Штаты Америки",
+        "common": "Соединённые Штаты Америки"
+      },
+      "slk": {
+        "official": "Spojené štáty Americké",
+        "common": "Spojené štáty americké"
+      },
+      "spa": {
+        "official": "Estados Unidos de América",
+        "common": "Estados Unidos"
+      },
+      "swe": {
+        "official": "Amerikas förenta stater",
+        "common": "USA"
+      },
+      "tur": {
+        "official": "Amerika Birleşik Devletleri",
+        "common": "Amerika Birleşik Devletleri"
+      },
+      "urd": {
+        "official": "ریاستہائے متحدہ امریکا",
+        "common": "ریاستہائے متحدہ"
+      },
+      "zho": {
+        "official": "美利坚合众国",
+        "common": "美国"
+      }
+    },
+    "latlng": [38, -97],
+    "landlocked": false,
+    "area": 9372610,
+    "demonyms": {
+      "eng": {
+        "f": "American",
+        "m": "American"
+      },
+      "fra": {
+        "f": "Américaine",
+        "m": "Américain"
+      }
+    },
+    "flag": "🇺🇸",
+    "maps": {
+      "googleMaps": "https://goo.gl/maps/e8M246zY4BSjkjAv6",
+      "openStreetMaps": "https://www.openstreetmap.org/relation/148838#map=2/20.6/-85.8"
+    },
+    "population": 329484123,
+    "gini": {
+      "2018": 41.4
+    },
+    "fifa": "USA",
+    "car": {
+      "signs": ["USA"],
+      "side": "right"
+    },
+    "timezones": [
+      "UTC-12:00",
+      "UTC-11:00",
+      "UTC-10:00",
+      "UTC-09:00",
+      "UTC-08:00",
+      "UTC-07:00",
+      "UTC-06:00",
+      "UTC-05:00",
+      "UTC-04:00",
+      "UTC+10:00",
+      "UTC+12:00"
+    ],
+    "continents": ["North America"],
+    "flags": {
+      "png": "https://flagcdn.com/w320/us.png",
+      "svg": "https://flagcdn.com/us.svg"
+    },
+    "coatOfArms": {
+      "png": "https://mainfacts.com/media/images/coats_of_arms/us.png",
+      "svg": "https://mainfacts.com/media/images/coats_of_arms/us.svg"
+    },
+    "startOfWeek": "sunday",
+    "capitalInfo": {
+      "latlng": [38.89, -77.05]
+    },
+    "postalCode": {
+      "format": "#####-####",
+      "regex": "^\\d{5}(-\\d{4})?$"
+    }
+  },
+  {
+    "name": {
+      "common": "India",
+      "official": "Republic of India",
+      "nativeName": {
+        "eng": {
+          "official": "Republic of India",
+          "common": "India"
+        },
+        "hin": {
+          "official": "भारत गणराज्य",
+          "common": "भारत"
+        },
+        "tam": {
+          "official": "இந்தியக் குடியரசு",
+          "common": "இந்தியா"
+        }
+      }
+    },
+    "tld": [".in"],
+    "cca2": "IN",
+    "ccn3": "356",
+    "cca3": "IND",
+    "cioc": "IND",
+    "independent": true,
+    "status": "officially-assigned",
+    "unMember": true,
+    "currencies": {
+      "INR": {
+        "name": "Indian rupee",
+        "symbol": "₹"
+      }
+    },
+    "capital": ["New Delhi"],
+    "altSpellings": [
+      "IN",
+      "Bhārat",
+      "Republic of India",
+      "Bharat Ganrajya",
+      "இந்தியா"
+    ],
+    "region": "Asia",
+    "subregion": "Southern Asia",
+    "languages": {
+      "eng": "English",
+      "hin": "Hindi",
+      "tam": "Tamil"
+    },
+    "latlng": [20, 77],
+    "landlocked": false,
+    "area": 3287590,
+    "demonyms": {
+      "eng": {
+        "f": "Indian",
+        "m": "Indian"
+      },
+      "fra": {
+        "f": "Indienne",
+        "m": "Indien"
+      }
+    },
+    "flag": "🇮🇳",
+    "maps": {
+      "googleMaps": "https://goo.gl/maps/WSk3fLwG4vtPQetp7",
+      "openStreetMaps": "https://www.openstreetmap.org/relation/304716"
+    },
+    "population": 1380004385,
+    "gini": {
+      "2011": 35.7
+    },
+    "fifa": "IND",
+    "car": {
+      "signs": ["IND"],
+      "side": "left"
+    },
+    "timezones": ["UTC+05:30"],
+    "continents": ["Asia"],
+    "flags": {
+      "png": "https://flagcdn.com/w320/in.png",
+      "svg": "https://flagcdn.com/in.svg"
+    },
+    "coatOfArms": {
+      "png": "https://mainfacts.com/media/images/coats_of_arms/in.png",
+      "svg": "https://mainfacts.com/media/images/coats_of_arms/in.svg"
+    },
+    "startOfWeek": "monday",
+    "capitalInfo": {
+      "latlng": [28.6, 77.2]
+    },
+    "postalCode": {
+      "format": "######",
+      "regex": "^(\\d{6})$"
+    }
+  },
+  {
+    "name": {
+      "common": "China",
+      "official": "People's Republic of China",
+      "nativeName": {
+        "zho": {
+          "official": "中华人民共和国",
+          "common": "中国"
+        }
+      }
+    },
+    "tld": [".cn", ".中国", ".中國", ".公司", ".网络"],
+    "cca2": "CN",
+    "ccn3": "156",
+    "cca3": "CHN",
+    "cioc": "CHN",
+    "independent": true,
+    "status": "officially-assigned",
+    "unMember": true,
+    "currencies": {
+      "CNY": {
+        "name": "Chinese yuan",
+        "symbol": "¥"
+      }
+    },
+    "idd": {
+      "root": "+8",
+      "suffixes": ["6"]
+    },
+    "capital": ["Beijing"],
+    "altSpellings": [
+      "CN",
+      "Zhōngguó",
+      "Zhongguo",
+      "Zhonghua",
+      "People's Republic of China",
+      "中华人民共和国",
+      "Zhōnghuá Rénmín Gònghéguó"
+    ],
+    "region": "Asia",
+    "subregion": "Eastern Asia",
+    "languages": {
+      "zho": "Chinese"
+    },
+    "latlng": [35, 105],
+    "landlocked": false,
+    "area": 9706961,
+    "demonyms": {
+      "eng": {
+        "f": "Chinese",
+        "m": "Chinese"
+      },
+      "fra": {
+        "f": "Chinoise",
+        "m": "Chinois"
+      }
+    },
+    "flag": "🇨🇳",
+    "maps": {
+      "googleMaps": "https://goo.gl/maps/p9qC6vgiFRRXzvGi7",
+      "openStreetMaps": "https://www.openstreetmap.org/relation/270056"
+    },
+    "population": 1402112000,
+    "gini": {
+      "2016": 38.5
+    },
+    "fifa": "CHN",
+    "car": {
+      "signs": ["RC"],
+      "side": "right"
+    },
+    "timezones": ["UTC+08:00"],
+    "continents": ["Asia"],
+    "flags": {
+      "png": "https://flagcdn.com/w320/cn.png",
+      "svg": "https://flagcdn.com/cn.svg"
+    },
+    "coatOfArms": {
+      "png": "https://mainfacts.com/media/images/coats_of_arms/cn.png",
+      "svg": "https://mainfacts.com/media/images/coats_of_arms/cn.svg"
+    },
+    "startOfWeek": "monday",
+    "capitalInfo": {
+      "latlng": [39.92, 116.38]
+    },
+    "postalCode": {
+      "format": "######",
+      "regex": "^(\\d{6})$"
+    }
+  }
+]

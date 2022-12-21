@@ -1,0 +1,72 @@
+#navbar{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+    color: white;
+    background-color: black;
+    border-radius: 20px;
+
+  }
+  #navbar a{
+    text-decoration: none;
+    color: whitesmoke;
+  }
+*{
+    margin: 0%;
+    padding: 0%;
+  }
+
+#container {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(1fr);
+    gap: 40px;
+    text-align: center;
+    margin-top: 50px;
+
+}
+button{
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    text-align: center;
+    margin-top: 30px;
+    padding: 5px;
+}
+
+a{
+    text-decoration: none;
+    color: aliceblue;
+}
+
+
+h1{
+    text-align: center;
+}
+
+#form{
+    display: flex;
+    width: 45%;
+    margin: auto;
+    gap: 10px;
+    justify-self: center;
+    margin-top: 40px;
+    flex-direction: column;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 20px;
+
+  }
+  #form input , select{
+    height: 35px;
+    border: none;
+    border: 1px solid rgb(190, 188, 188);
+    border-radius: 10px;
+    padding-left: 5px;
+    text-align: center;
+  }
+ 
+  img {
+    width: 200px;
+    height: 200px;
+  }

@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup page</title>
+    <Style>
+       #logo{
+        display: grid;
+        justify-content: center;
+        margin-top: 50px;
+       }
+
+      form{
+        width: 35%;
+        height: 550px;
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+        margin: auto;
+        margin-top: 30px;
+        border-radius: 10px;
+        line-height: 50px;
+      
+       }
+      
+
+       p{
+        text-align: center;
+        font-size: 30px;
+    }
+
+       input[type = text], input[type = password] ,input[type = number] {
+        width: 80%;
+        height: 35px;
+        align-items: center;
+        margin-left: 30px;
+        padding: 5px;
+        border-radius: 5px;
+       }
+
+       label{
+        margin-left: 35px;
+       }
+
+       .bottom{
+         margin-left:150px ;
+     }
+
+     input[type = submit]{
+        
+        color: black;
+        padding: 12px 20px;
+        border: solid  black;
+        border-radius: 20px;
+        cursor: pointer;
+        width: 85%;
+        font-size: 20px;
+        margin-top: 20px;
+        margin-left: 30px;
+        }
+        input[type = submit]:hover{
+                background-color: rgb(53, 51, 51);  
+            }
+            @media screen and (max-width: 300px) {
+                span.bottom{
+                    grid-template-columns: repeat(1, 1fr);
+                    grid-template-rows: repeat(1,1fr);
+
+                
+        }
+            }
+    </Style>
+</head>
+<body>
+    <div  id="logo">
+        <img src="https://sso.masaischool.com/brand_dark.svg" alt="logo">
+    </div>
+
+  <form>
+    <p><b>Signup</b></p>
+    <label for="">Email</label><br />
+    <input id="Email" type="text" placeholder="Enter Email" /><br />
+    <label for="">Phonenumber</label><br />
+    <input id="Phonenumber" type="number" placeholder="Enter Phonenumber" /><br />
+    <label for="">Password</label><br />
+    <input id="Password" type="password" placeholder="Enter Password" /><br />
+    <input type="submit" value="Signup" />
+    <br>
+    <span class="bottom"> Already have an account?
+ <a href="login.html"target="_black">Sign In</a> </span>
+  </form>
+
+
+<script>
+    let form = document.querySelector("form")
+     let signupLS= JSON.parse(localStorage.getItem("signup") )|| [];
+
+   form.addEventListener("submit", function(event) {
+      event.preventDefault();
+    let obj = {
+      Email:form.Email.value,
+      Phonenumber:form.Phonenumber.value,
+      Password:form.Password.value
+    }
+
+    if(obj.Email=="" || obj.Phonenumber=="" || obj.Password==""){
+      alert("please fill the complete details");
+      return;
+    }
+    signupLS.push(obj);
+   console.log(obj);
+
+   localStorage.setItem("signup",JSON.stringify(signupLS));
+   alert("Signup Sucessfull");
+   window.location.href = "login.html";
+   });
+</script>
+</body>
+
+</html>

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="navbar.css">
+    <title>Flipkart inventory</title>
+</head>
+<body>
+    <div id="navbar">
+        <h3><a href="trousers.html">trousers</a></h3>
+        <h3><a href="shoes.html">shoes</a></h3>
+        <h3><a href="t-shirts.html">t-shirts</a></h3>
+    </div>
+
+    <h1>Flipkart Inventory Management</h1>
+   <button onclick="sortlh()">sort low to high</button>
+   <button onclick="sorthl()">sort high to low</button>
+   <button onclick="filter()">filter</button>
+   <button onclick="prev()">&#62&#62 previous</button>
+   <button onclick="next()">next &#62&#62</button>
+   
+   <div id="form">
+    <input type="text" id="product" placeholder="product">
+    <input type="number" id="price" placeholder="price">
+    <input type="url" id="image" placeholder="url">
+    <select id="category">
+        <option value="trousers">trousers</option>
+        <option value="shoes">shoes</option>
+        <option value="t-shirts">t-shirts</option>
+    </select>
+    <button onclick="submit()">Submit</button>
+</div>
+    <div id="container"></div>
+</body>
+</html>
+
+<script src="main.js"></script>

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/index.css">
+    <title>flipkart</title>
+</head>
+<body>
+    
+    <div id="navbar"></div>
+
+     <div id="contain">
+          <h1>Add Inventory</h1>
+        <input type="text" id="product_name" placeholder="Enter Product Name here">
+        <br><br>
+        <input type="url" id="product_image" placeholder="Product image url">
+        <br><br>
+        <input type="number" id="product_price" placeholder="Enter Product price here">
+        <br><br>
+        <select name="product_category" id="product_category">
+            <option value="">Choose Your category</option>
+            <option value="trousers">trousers</option>
+            <option value="shoes">shoe</option>
+            <option value="t-shirts">t-shirts</option>
+        </select>
+        <br><br>
+        <input  type= "submit" onclick="submit()" id="submit">
+
+
+     </div>
+</body>
+</html>
+
+
+<script type ="module">
+    import navbar from './components/navbar.js'
+   let  parent=  document.getElementById("navbar")
+   parent.innerHTML = navbar()
+</script>
+
+<script src="./scripts/index.js"></script>
+

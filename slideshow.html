@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>slideShow</title>
+  </head>
+
+  <body>
+    <button onclick="start()">start</button>
+    <button onclick="stop()">stop</button>
+    <div id="container"></div>
+  </body>
+</html>
+
+<script>
+  let image = [
+    "https://media.istockphoto.com/photos/closeup-shot-of-spicy-vegetable-dimsumsmomos-with-assorted-in-a-picture-id1356766002?b=1&k=20&m=1356766002&s=170667a&w=0&h=yeSr_qV_SWIsNojwkbqy8Exj1jkNx6VMvbRS4SvjrRI=",
+    "https://images.unsplash.com/photo-1565958011703-44f9829ba187?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8N3x8Zm9vZHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60",
+    "https://media.istockphoto.com/photos/goal-gappa-or-pani-puri-picture-id1314329915?b=1&k=20&m=1314329915&s=170667a&w=0&h=Sd7vk0xrgMD-F6r5zv7-L5ThLf_k_2PlqSRjiDIXYEQ=",
+    "https://media.istockphoto.com/photos/selective-focus-of-soya-manchurianchili-soya-bean-chunks-recipe-with-picture-id1413749506?b=1&k=20&m=1413749506&s=170667a&w=0&h=EPj_el47jnQpaDPdr183_gD35VvlIdn5R0QGnBwJEW8=",
+  ];
+
+
+  let id;
+ let  i = 0;
+  let slideShow = () => {
+    //global index start from 0
+    let container = document.getElementById("container");
+
+     id = setInterval(() => {
+      if (i === image.length) {
+          i = 0;
+          console.log(i)
+      }
+
+      let img = document.createElement("img");
+      img.src = image[i];
+      img.style.height="400px"
+      img.style.width="600px"
+      container.innerHTML = null;
+      container.append(img);
+      i++;
+    }, 500);
+  };
+  //setTimeout = only one
+  //setinterval = keep on running unless stopped
+  slideShow();
+
+let stop =()=> {
+    clearInterval(id);
+};
+
+let start =()=> {
+    slideShow();
+};
+ 
+</script>

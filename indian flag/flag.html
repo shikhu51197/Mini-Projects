@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Masai</title>
+<style>
+
+    h1{
+        text-align:center;
+        color: #000080;
+    }
+
+    #container { 
+    width: auto;
+    height: auto;
+    display: flex;
+    margin-top: 200px; 
+    justify-content: center;
+
+} 
+
+    #flag {
+    width: 300px;
+    height: 200px;
+    box-shadow: 0px 0px 90px 1px rgb(72, 69, 72,0.6);  
+    position: relative;   
+    border: 1px solid black;
+}
+
+ #top{
+    height: 65px;
+    background-color: #FF9933;
+    border : 1px  solid black
+}
+ 
+#mid{
+    height: 65px;
+    background-color:#FFFFFF ;
+    border:  1px  solid black
+}
+ 
+#bottom {
+    height: 65px;
+    background-color: #138808;
+    border:  1px  solid black
+}
+#wheel {
+    border: 1px solid  #000080;
+	height: 43px;
+	width: 43px;
+	border-radius: 45px;
+	position: relative;
+    margin:auto;
+    margin-top: 10px;
+}
+
+#wheel #line {
+    background:  #000080;
+	height: 100%;
+	width: 1px;
+	position: absolute; 
+	left: 50%;
+	
+}
+
+#line:nth-child(1) {
+	transform: rotate(15deg)
+}
+
+#line:nth-child(2) {
+	transform: rotate(30deg)
+}
+
+#line:nth-child(3) {
+	transform: rotate(45deg)
+}
+
+#line:nth-child(4) {
+	transform: rotate(60deg)
+}
+
+#line:nth-child(5) {
+	transform: rotate(75deg)
+}
+
+#line:nth-child(6) {
+	transform: rotate(90deg)
+}
+
+#line:nth-child(7) {
+	transform: rotate(105deg)
+}
+
+#line:nth-child(8) {
+	transform: rotate(120deg)
+}
+
+#line:nth-child(9) {
+	transform: rotate(135deg)
+}
+
+#line:nth-child(10) {
+	transform: rotate(150deg)
+}
+
+#line:nth-child(11) {
+	transform: rotate(165deg)
+}
+
+#line:nth-child(12) {
+	transform: rotate(180deg)
+}
+
+</style>
+</head>
+<body>
+    <h1>HAPPY INDEPENDENCE DAY</h1>
+ <div id ="container">
+    <div id ="flag">
+        <div id="top"></div>
+        <div id="mid">
+            <div id="wheel">
+                <span id="line"></span>
+                <span id="line"></span>
+                <span id="line"></span>
+                <span id="line"></span>
+                <span id="line"></span>
+                <span id="line"></span>
+                <span id="line"></span>
+                <span id="line"></span>
+                <span id="line"></span>
+                <span id="line"></span>
+                <span id="line"></span>
+                <span id="line"></span>
+            </div>
+        </div>
+        <div id ="bottom"></div>
+        </div>
+       
+    </div>
+</div>
+
+
+</body>
+</html>

@@ -1,0 +1,111 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Counter :- <span id="value"></span></h1>
+   
+    <button id="add-btn" onclick="start()" >Start</button>
+    <button id="sub-btn"onclick="stop()">Stop</button>
+    <button id="increase" onclick="increase()" >increase</button>
+    <button id="decrease"onclick="decrease()">decrease</button>
+</body>
+</html>
+<script>
+
+
+let count = 1;
+let id ;
+let start = () =>{
+    let value = document.getElementById("value");
+   id =  setInterval(()=>{
+        
+        value.innerText = count++;
+        console.log(count)
+        
+    },1000)
+
+   
+}
+
+let stop = ()=>{
+   clearInterval(id) 
+}
+
+let increase = ()=>{
+   
+    console.log(count)
+    
+    value.innerText = count++;
+    clearInterval(id) 
+}
+
+let decrease = ()=>{
+    
+    console.log(count)
+    value.innerText = count--;
+}
+
+
+
+
+
+
+
+
+
+//     let id;
+//     class Counter {
+//         #value
+//         constructor(int_value){
+//             this.#value = int_value;
+//         }
+//         set value(newValue){
+//             this.#value = newValue;
+//         }
+//         get value(){
+//             return this.#value;
+//         }
+//     }
+
+//     let c = new Counter(0);
+//     let counter =()=>{
+//         id = setInterval(()=>{
+//       c.value++;
+//         },1000)
+//     }
+
+   
+
+//     let decrease = () =>{
+//     c.value = c.value - 1;
+//     let v  = document.getElementById("value");
+//         v.innerText = c.value
+
+//     }
+//     let increment = () =>{
+//     c.value = c.value + 1;
+//     let v  = document.getElementById("value");
+//         v.innerText = c.value
+
+//     }
+//     window.onload = () =>{
+      
+//         let v  = document.getElementById("value");
+//         v.innerText = c.value
+
+//         const btn = document.getElementById("add-btn");
+//         btn.onclick = () =>{
+//             increment();
+
+//             const btn1 = document.getElementById("sub-btn");
+//         btn1.onclick = () =>{
+//             decrease();
+//         }
+//     }
+// }
+</script>

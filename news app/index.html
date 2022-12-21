@@ -1,0 +1,88 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home page</title>
+    <style>
+      *{
+        margin: 0%;
+        padding: 0%;
+      }
+      #navbar{
+        display: flex;
+        justify-content: space-evenly;
+        padding: 20px;
+        color: white;
+        background-color: black;
+      }
+      #navbar a{
+        text-decoration: none;
+        color: whitesmoke;
+      }
+      #user-form{
+        display: flex;
+        width: 45%;
+        margin: auto;
+        gap: 10px;
+        justify-self: center;
+        margin-top: 40px;
+        flex-direction: column;
+
+      }
+      #user-form input,select{
+        height: 35px;
+        border: none;
+        border: 1px solid rgb(190, 188, 188);
+        border-radius: 10px;
+        padding-left: 5px;
+      }
+      input[type="submit"]{
+        cursor: pointer;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="navbar">
+      <h3>News App</h3>
+      <h3>Sign-Up</h3>
+      <h3>
+        <a href="./worldNews.html">World News</a>
+      </h3>
+    </div>
+    <div id="user-form">
+      <input type="text" placeholder="Enter Url of Your Profile Pic" id="image">
+      <input type="text" placeholder="Enter Your Name" id="name">
+      <input type="text" placeholder="Enter Your Email" id="email">
+      <select name="" id="country">
+        <option value="in">India</option>
+        <option value="ch">China</option>
+        <option value="nz">Newzeland</option>
+        <option value="us">USA</option>
+        <option value="uk">UK</option>
+      </select>
+      <input type="submit" onclick="submit()" value="Submit" id="submit">
+      <!-- Profile Pic, (Id:- image)
+           Name, (Id:- name)
+           Email, (Id:- email)
+           country, (Id: country) >> Dropdown with options "India", "China", "Newzeland", "USA", "UK.  
+           ** Submit button will have Id:- "submit". -->
+    </div>
+  </body>
+  <script>
+    let submit=()=>{
+      
+      let name=document.getElementById("name").value;
+      let image=document.getElementById("image").value;
+      let email=document.getElementById("email").value;
+      let country=document.getElementById("country").value;
+      let user={
+        name,image,email,country
+      }
+      localStorage.setItem("user",JSON.stringify(user))
+
+    }
+  </script>
+</html>

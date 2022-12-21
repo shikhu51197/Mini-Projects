@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles/index.css">
+    <title>Home</title>
+  </head>
+  <body>
+    <div id="navbar">
+      <!-- - The cart link Id :- "cart" -->
+      <!-- - Cart count div Id :- cart_count -->
+      <!-- - In cart count only number should be there, do not add any extra text. -->
+     <a href="cart.html"><h1 id="cart">cart</h1></a>
+    <h1 id="cart_count">0</h1>
+
+    </div>
+    <div id="buttons">
+      <!-- - Previous button Id :- "previous" -->
+      <!-- - Next button Id :- "next" -->
+      <button onclick="prev()" id="previous">previous</button>
+      <button  onclick="next()" id="next">next</button>
+    </div>
+    <div id="items">
+      <!-- - All the item will be appended inside div with Id :- "items" -->
+      <!-- - Item card will have class :- "item" -->
+      <!-- - Add to cart button class :- "add_to_cart" -->
+    </div>
+  </body>
+</html>
+
+<script src="./scripts/index.js"></script>

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles/cart.css">
+    <title>Cart</title>
+  </head>
+  <body>
+    <div id="navbar">
+      <!-- - The cart link Id :- "cart" -->
+      <!-- - Cart count div Id :- cart_count -->
+      <!-- - In cart count only number should be there, do not add any extra text -->
+      <a href="cart.html"><h1 id="cart">cart</h1></a>
+      <h1 id="cart_count">0</h1>
+  
+    </div>
+    <div id="items">
+      <!-- - All the cart items will be appended inside div with id :- "items" -->
+      <!-- - Item card will have class :- "item" -->
+      <!-- - Remove button will have class :- "remove" -->
+    </div>
+    <hr />
+    <div id="checkout">
+      <h3>**Checkout**</h3>
+      <!-- - Name and Address input field will have ids "name" and "address" respectively. -->
+      <!-- - The checkout button will have id :- "checkout" -->
+      <input type="text" id="name" placeholder="EnterYour name">
+      <input type="text" id="address" placeholder="Enter Your address">
+      <button id="checkout" >checkout</button>
+    </div>
+  </body>
+</html>
+
+<script src="./scripts/cart.js"></script>

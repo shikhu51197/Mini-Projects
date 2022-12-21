@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        body {
+            background-color:rgb(162, 84, 234)
+        }
+       
+        #container {
+        height: 450px;
+        width: 400px;
+        /* border: 1px solid red; */
+        margin:auto;
+        margin-top:50px;
+        padding: 20px 0px;
+        box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+        border-radius: 10px;
+        background-color: white;
+        }
+
+     
+
+        button {   
+       background-color: #905cd8;   
+       width: 70%;  
+        color:white;   
+        padding: 15px;   
+        margin-left:50px;   
+        border: none;   
+        cursor: pointer; 
+        margin-bottom: 20px;
+          
+         }   
+
+        input[type=text], input[type=password] {   
+        width: 62%;   
+        margin-left: 50px;   
+        padding: 15px;    
+        display: inline-block;    
+        
+    }  
+
+
+    p{
+        text-align: center;
+        font-size: 30px;
+    }
+
+    @media screen and (max-width: 300px) {
+        span.bottom{
+        display: block;
+        float: none;
+  }
+    }
+ </style>
+</head>
+<body>
+    <div id = "container">
+        <p><b>Login</b></p>
+        <input type ="text" placeholder ="Email" id = "email"/>
+        <br>
+        <br>
+        <input type = "password" placeholder = "Password"id = "password" />
+        <br>
+        <br>
+        <button type=" submit">Login</button>
+        
+    <center><span class="bottom">Forgot <a href="#"> password? </a></span>   
+    <br>
+
+     <br>   
+     <span class="bottom">Don't have an account? <a href="#">Sign up</a></span></center> 
+    
+    </div>
+    
+
+</body>
+</html>
+
+<script>
+   
+    document.querySelector("button").addEventListener("click",myfunction)
+
+
+    function myfunction(){
+        let useremail = document.querySelector("#email").value;
+        let userpassword = document.querySelector("#password").value;
+        console.log(useremail , userpassword);
+    }
+</script>

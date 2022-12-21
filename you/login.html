@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login_page</title>
+    <style>
+
+    #logo{
+            display:flex;
+            justify-content: center;
+            margin-top: 40px;
+        }
+
+        
+       
+        
+      form{
+        width: 35%;
+        height: 550px;
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+        margin: auto;
+        margin-top: 30px;
+        border-radius: 10px;
+        line-height: 50px;
+      
+       }
+
+    
+
+        input[type=text], input[type=password] , input[type=submit]{   
+       
+        
+        width: 80%;
+        height: 35px;
+        align-items: center;
+        margin-left: 30px;
+        padding: 5px;
+        border-radius: 5px;
+
+    }  
+
+
+    label{
+        margin-left: 35px;
+    }
+
+    .bottom{
+        font-size:15px;
+        margin-top: 20px;
+        margin-left:150px ;
+        text-align: center;
+
+    }
+    .mid{
+        font-size:15px;
+        margin-left: 300px;
+    }
+    input[type=submit]{
+
+        color: black;
+        padding:  5px;
+        border: solid  black;
+        border-radius: 20px;
+        cursor: pointer;
+        width: 83%;
+        font-size: 20px;
+        margin-top: 20px;
+        margin-left: 30px;
+        height: 50px;
+      
+
+    }  
+    
+    input[type = submit]:hover{
+                background-color: rgb(53, 51, 51);  
+            }
+   
+
+
+
+    p{
+        text-align: center;
+        font-size: 30px;
+    }
+
+    @media screen and (max-width: 300px) {
+        span.bottom{
+        display: block;
+        float: none;
+  }
+    }
+ </style>
+</head>
+<body>
+    <div id = "logo" >
+        <img src = "https://sso.masaischool.com/brand_dark.svg"alt="masailogo">
+   
+        </div>
+       
+   <form>
+        <p><b>Sign in</b></p>
+        <label for="">Email</label>
+        <input type ="text" placeholder ="Enter Email" id = "Email"/>
+        <label for="">Password</label>
+        <span class="mid"> <a href="#">Forgot password? </a></span>
+        <input type = "password" placeholder = "Password"id = "Password" />
+       
+        
+        <input type = "submit" value = "Signin"/>
+        <br>
+    <span class="bottom">Don't have an account? <a href="signup.html"target="_black">Sign up</a></span>  
+    
+   </form>
+    
+
+
+
+<script>
+   
+   let form = document.querySelector("form")
+     let signupLS = JSON.parse(localStorage.getItem("signup") )|| [];
+
+   form.addEventListener("submit", function(e) {
+      e.preventDefault();
+      if (signupLS.length===0){
+        alert("No user till Now ")
+        return;
+      }
+
+
+    let obj = {
+      Email:form.Email.value,
+      Password:form.Password.value,
+    }
+    let  isSignedin  =   false;
+    signupLS.forEach(function(ele){
+        if(ele.Email== obj.Email && ele.Password==obj.Password){
+            isSignedin = true;
+          localStorage.setItem("login",JSON.stringify(ele));
+          alert("login Sucessfull");
+          window.location.href = "navbar.html";
+    }
+    })
+
+     if (isSignedin===false){
+        alert("User Doesnot Exist");
+     }
+     
+      
+    
+   });
+
+    
+</script>
+</body>
+</html>

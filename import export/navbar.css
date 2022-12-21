@@ -1,0 +1,123 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(223, 232, 232);
+}
+
+
+#navbar {
+    /* border:  2px solid black; */
+    gap: 20px;
+    display: flex;
+    background-color: blue;
+    height: 60px;
+    width: 100%;
+    border-radius:30px ;
+
+}
+
+
+a{
+    text-decoration: none;
+    color: beige;
+    margin: auto;
+    margin-left: 80px;
+}
+
+
+#signup_form{
+   
+    width: 200px;
+    line-height: 40px;
+    text-align: center;
+    margin: auto;
+    margin-top: 50px;
+    background-color: pink;
+    border: 5px solid black;
+
+}
+
+
+#login_form{
+   
+    width: 200px;
+    line-height: 40px;
+    text-align: center;
+    margin: auto;
+    margin-top: 50px;
+    background-color: pink;
+    border: 5px solid black;
+
+}
+
+
+button{
+    background-color: black;
+    color: white;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+
+h1{
+    text-align: center;
+}
+
+
+#value{
+    width: 200px;
+    line-height: 40px;
+    text-align: center;
+    margin: auto;
+    margin-top: 50px;
+    background-color: pink;
+    border: 5px solid black;;
+}
+
+
+#container{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(1fr);
+    gap:20px;
+    /* border: 5px solid black; */
+    margin: auto;
+    width: 80%;
+    
+
+}
+
+#container>div{
+    text-align: center;
+    border: 1px solid black;
+    box-shadow: rgb(223, 232, 232 ,2);
+    
+}
+#checkout_data{
+    width: 200px;
+    line-height: 40px;
+    text-align: center;
+    margin: auto;
+    margin-top: 50px;
+    background-color: pink;
+    border: 5px solid black;;
+}
+
+#menu{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(1fr);
+    gap:20px;
+    /* border: 5px solid black; */
+    margin: auto;
+    width: 80%;
+
+}
+
+#menu>div{
+    text-align: center;
+    border: 1px solid black;
+    box-shadow: rgb(223, 232, 232 ,2);
+    
+}

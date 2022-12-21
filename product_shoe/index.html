@@ -1,0 +1,37 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+  <head> 
+    <meta charset="UTF-8" /> 
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" /> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /> 
+    <title>Document</title> 
+    <link rel="stylesheet" href="index.css"> 
+  </head> 
+  <body> 
+    <div id="navbar"> 
+      <h1>Admin Panel</h1> 
+    </div> 
+    <div id="box">
+      <div id="add"> 
+      <input type="text" id="name" placeholder="Enter name" /> 
+      <input type="text" id="price" placeholder="Enter Price" /> 
+      <input type="text" id="description" placeholder="description" /> 
+      <input type="date" id="delivery" /> 
+      <input type="url" id="image" placeholder="image_url" /> 
+      <button id="add_product" onclick="addProduct()">Add Product</button> 
+      <br><br>
+      <h4>Sort Based on price</h4> 
+      <button id="sort-low-to-high" onclick="sortLH()">Sort  
+        low to high</button> 
+      <button id="sort-high-to-low" onclick="sortHL()">Sort high to low</button> 
+      <br><br>
+      <h4>Filter By Price</h4> 
+      <button id="greater-than" onclick="greaterThan()">Price > 4000</button> 
+      <button id="less-than" onclick="lessThan()">Price < = 4000</button> 
+    </div> 
+    <div id="container"></div> 
+  </div> 
+  </body> 
+</html> 
+ 
+<script src="index.js"></script>

@@ -1,0 +1,26 @@
+#all_countries {
+  margin: 40px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 20px;
+}
+
+.country {
+  height: 400px;
+  border: 1px solid gray;
+  padding: 10px;
+}
+
+.country img {
+  height: 40%;
+  width: 100%;
+}
+
+#modal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  z-index: 1000;
+  background-color: red;
+  display: none;
+}

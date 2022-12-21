@@ -1,0 +1,211 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" container="IE=edge">
+    <meta name="viewport" container="width=device-width, initial-scale=1.0">
+    <title>StudyLab</title>
+    <style>
+       #box
+       {
+        width: 100%;
+        height: 60px;
+        border: 0px solid teal;
+        display: flex;
+        margin: auto;
+        justify-content: space-between;
+        margin-top: 10px;
+        box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+       } 
+       #navbar
+       {
+        width: 200px;
+        height: 100%;
+        border: 0px solid rgb(108, 24, 210);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 80px;
+        background-color: #4986fc;
+        color: white;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+       }
+       #navbar+div
+       {
+        width: 50%;
+        height: 60px;
+        border: 0px solid teal;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+       } 
+       #navbar+div>h3
+       {
+        padding: 20px;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        padding-right: 30px;
+       }
+       #navbar+div>h3:nth-child(1)
+       {
+        color: blue;
+       }
+       #content
+       {
+        width: 90%;
+        height: 600px;
+        border: 0px solid brown;
+        margin: auto;
+        display: flex;
+        margin-top: 40px;
+       }
+       #content>div
+       {
+        width: 45%;
+        height: auto;
+        border: 0px solid teal;
+       }
+       #content>div:nth-child(1)
+       {
+        padding-top:40px;
+       }
+       #content>div:nth-child(1)>h3
+       {
+        color: blue;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        line-height: 25px;
+       }
+       #content>div:nth-child(1)>h1
+       {
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 40px;
+       }
+       #content>div:nth-child(1)>h1+p,#content>div:nth-child(1)>p+p
+       {
+        width:85%;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 30px;
+        color: rgb(142, 134, 134);
+       }
+       #content>div:nth-child(1)>p+p
+       {
+        width:85%;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 30px;
+       }
+       #content>div>div
+       {
+        display: flex;
+        width: 80%;
+        height: 100px;
+        border: 0px solid red;
+       }
+       #content>div>div>h2
+       {
+        padding-left: 30px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-weight: 300;
+       }
+       #cards
+       {
+        margin-left: 20px;
+       }
+      #content>#cards>div
+      {
+        display: flex;
+        width: 100%;
+        height: 280px;
+        border: 0px solid red;
+      }
+      #content>#cards>div:nth-child(2)
+      {
+        margin-top: 20px;
+      }
+      #cards>div>div
+       {
+          width:40%;
+          height: auto;
+          border: 0px solid coral;  
+          margin-left: 40px;
+          box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+          padding: 20px;
+       }
+       #cards>div>div>img
+       {
+        width:35%;
+        border: 60%;
+       }
+       #cards>div>div>h2
+       {
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-weight: 300;
+       }
+       #cards>div>div>p{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-weight: 600;
+        font-size: 19px;
+        line-height: 20px;
+        color: rgb(142, 134, 134);;
+       }
+    </style>
+</head>
+<body>
+    <div id="box">
+        <div id="navbar">
+            <h1>StudyLab</h1>
+        </div>
+        <div>
+            <h3>Home</h3>
+            <h3>About</h3>
+            <h3>Course</h3>
+            <h3>Instructor</h3>
+            <h3>Blog</h3>
+            <h3>Contact</h3>
+        </div>
+    </div>
+    <div id="content">
+        <div>
+            <h3>WELCOME TO STUDYLAB</h3>
+            <h1>We are StudyLab an Online learning Center</h1>
+            <p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
+            <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+            <div>
+                <img src="https://technext.github.io/studylab/images/about.jpg" alt="broken">
+                <h2>Learn anything from StudyLab, Watch video</h2>
+            </div>
+        </div>
+        <div id="cards">
+            <div>
+                <div>
+                    <img src="https://www.freepnglogos.com/uploads/photography-logo-png/photography-logo-camera-logo-png-download-clip-art-clip-7.png" alt="">
+                    <h2>Top Quality container</h2>
+                    <p>A small river named Duden flows by their place and supplies .</p>
+                </div>
+                <div>
+                    <img src="https://www.freepnglogos.com/uploads/photography-logo-png/photography-logo-camera-logo-png-download-clip-art-clip-7.png" alt="">
+                    <h2>Top Quality container</h2>
+                    <p>A small river named Duden flows by their place and supplies .</p>
+                </div>
+            </div>
+            <div>
+                <div>
+                    <img src="https://www.freepnglogos.com/uploads/photography-logo-png/photography-logo-camera-logo-png-download-clip-art-clip-7.png" alt="">
+                    <h2>Top Quality container</h2>
+                    <p>A small river named Duden flows by their place and supplies .</p>
+                </div>
+                <div>
+                    <img src="https://www.freepnglogos.com/uploads/photography-logo-png/photography-logo-camera-logo-png-download-clip-art-clip-7.png" alt="">
+                    <h2>Top Quality container</h2>
+                    <p>A small river named Duden flows by their place and supplies .</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+
+
