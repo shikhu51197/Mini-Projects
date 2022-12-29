@@ -50,7 +50,7 @@ inventory with login signup:-
 https://6314c0de4f16cf7b3a0a11b7--endearing-snickerdoodle-41dc09.netlify.app/
 
 phonepe:-
-https://course.masaischool.com/assignments/15025/problem/26564
+https://endearing-snickerdoodle-41dc09.netlify.app/
 
 covid vaccine :-
 https://6318627ce6f7d2192dd370fb--endearing-snickerdoodle-41dc09.netlify.app/
