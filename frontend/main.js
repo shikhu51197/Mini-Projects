@@ -1,5 +1,5 @@
 // server url
- const url = "https://intense-hamlet-90313.herokuapp.com/menu"
+ const url = "https://flipkartinventoryserver.onrender.com/menu"
 
  window.addEventListener('load',() => {
     getData()
